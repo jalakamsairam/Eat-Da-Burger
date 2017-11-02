@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Yummy Burger</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    {{!-- <link rel="stylesheet" type="text/css" href="/assets/css/style.css"> --}}
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="/assets/js/main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="page header">
+            <h1>Eat-Da-burger</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="well addBurger">
+            <form class "navbar-form" id="addBurgerForm">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Burger Name" id="burgerName" class="bugerInput">
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-primary submitButton" id="addButton">Submit</button>
+                </div>
+            </form>    
+        </div>
+        {{{body}}}
+    </div>
+</body>
+
+</html>

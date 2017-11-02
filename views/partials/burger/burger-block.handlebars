@@ -1,0 +1,15 @@
+<li class="list-group-item">
+  {{#if devoured}}
+    
+    {{burger_name}}
+    <button data-id="{{id}}" type="button" class="removeBurger">
+      Remove
+    </button>
+  {{else}}
+ 
+    {{burger_name}}
+    <button data-id="{{id}}" type="button" class="devourBurger">
+      Devour it!
+    </button>
+  {{/if}}    
+</li>
