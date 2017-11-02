@@ -2,7 +2,6 @@ $(document).ready(function () {
 
   //Add Burger
   $("#addButton").on("click", function (event) {
-    
     var name = $("#burgerName").val().trim();
     console.log(name);
     $.ajax("/api/burger", {
